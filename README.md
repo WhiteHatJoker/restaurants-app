@@ -10,6 +10,6 @@ This web based application stores and displays the catalog of restaurants and th
 
 * Now, it is time to run the Vagrant application via terminal. I personally use git bash to get Linux command line for my Windows. Change directory `cd` to the Vagrant folder. Further, run `vagrant up`, followed by `vagrant ssh` to login to the Virtual machine. We would also need to `cd /vagrant` and go to the folder with current repository.
 
-* Now, run `python database_setup.py` to create a database, `python database_setup.py` to fill in the database with records and `python project.py` to start the app in the browser. Now open your browser and go to http://localhost:5000 and Enjoy.
-
+* Now, run `python database_setup.py` to create a database, `python database_setup.py` to fill in the database with records and `python project.py` to start the app in the browser. Now open your browser and go to `http://localhost:5000` and Enjoy.
+## Moving app to Heroku ##
 * If you want to move this app online, follow this instructions on how to deploy this app on Heroku: https://www.udacity.com/wiki/ud330/deploy
