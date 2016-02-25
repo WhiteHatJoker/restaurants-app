@@ -1,5 +1,13 @@
 # Restaurant Menus Directory App #
 This web based application stores and displays the catalog of restaurants and their corresponding menu items with detailed desription of each. The app is built with the help of Python's Flask MVC Framework together with SQLAlchemy ORM. The website allows users to login using OAuth 2.0 Facebook and Google authentication providers. Also, users can perform CRUD operations on their own restaurants and menu items, and they can get API enpoints for JSON represantation of menus and restaurants.
+## Consists of ##
+* /static folder with all images and stylesheets
+* /templates folder with all the views or front-end code
+* `client_secrets.json` for storing Google settings and `fb_client_secrets.json` for storing Facebook OAuth settings.
+* `database_setup.py` to create a database
+* `lotsofmenus.py` to add records to a database
+* `project.py` - main backend controller
+* `restaurantmenu.db` - database itself
 ## Running locally using Vagrant ##
 * For the purposes of running this app locally, we would need to clone the Vagrant application from: https://github.com/WhiteHatJoker/fullstack-nanodegree-vm.git. Vagrant machine should have all the necessary settings and dependencies to be able to start our app, however if not, we would only need to install Flask and SQLAlchemy additionally. As soon as we get the Vagrant folder in our directory, please clone all of the code from the current repository to subfolder of the vagrant folder.
 
