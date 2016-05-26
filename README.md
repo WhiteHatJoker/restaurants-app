@@ -13,4 +13,4 @@ This web based application stores and displays the catalog of movies, books, mus
 ## Getting ready to run the website ##
 * All the additional books, movies or music and their details should be stored into `/inc/data.php` file. 
 * We also need to configure the lines 40-52 in suggest.php depending on how you would like to receive the suggestion mail. If you want to use Gmail as the means to send email to your preferred address update lines 48,49 to Gmail login details and line 52 to the email address, where you would like to receive the email.
-* Now, move the items on the hosting account
+* Now, move the items to the hosting account
